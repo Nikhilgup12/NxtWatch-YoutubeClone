@@ -1,0 +1,20 @@
+.gaming-video-list {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 100%;
+  max-width: 180px;
+}
+.gaming-video-title {
+  font-size: 17px;
+  /* color: #181818; */
+}
+.gaming-video-name {
+  font-size: 13px;
+  margin-top: 0px;
+  /* color: #616e7c; */
+}
+.gaming-video-image {
+  width: 100%;
+  max-width: 250px;
+}

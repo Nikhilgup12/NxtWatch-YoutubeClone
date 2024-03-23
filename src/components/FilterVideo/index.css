@@ -1,0 +1,64 @@
+.home-dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 200px;
+
+  /* box-shadow: 1px 0 2px rgba(0, 0, 0, 0.3); */
+}
+.dashboardContainer-dark {
+  background-color:#424242;
+}
+
+.dashboardContainer-light {
+  background-color: #f9f9f9;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid #ddd; */
+  padding: 0px 13px 0px 13px;
+  cursor: pointer;
+}
+.navItem-dark {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.navItem-light {
+  color: #231f20;
+  font-family: Roboto;
+}
+.nav-menu-items {
+  font-family: Roboto;
+  padding-left: 10px;
+}
+
+.navItem-dark:hover {
+  background-color: #606060;
+  color: red;
+}
+.navItem-light:hover {
+  background-color: #f4f4f4;
+  color: red;
+}
+.home-contact-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.home-contact-para {
+  font-size: 12px;
+  font-family: Roboto;
+}
+.facebook-image {
+  width: 30px;
+  margin-right: 10px;
+}
+.home-user-detail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+}

@@ -1,0 +1,129 @@
+.trending-main-container {
+  display: flex;
+  height: 100vh;
+}
+.trending-video-container {
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.trending-video-dark-container {
+  background-color: #0f0f0f;
+}
+.trending-video-light-container {
+  background-color: #f1f1f1;
+}
+.trending-thumbnail-container {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.trending-dark-thumbnail {
+  background-color: #383838;
+}
+.trending-light-thumbnail {
+  background-color: #f9f9f9;
+}
+.trending-icon-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.dark-icon-container {
+  background-color: #0f0f0f;
+}
+.light-icon-container {
+  background-color: #f1f1f1;
+}
+
+.trending-thumbnail-heading {
+  font-family: Roboto;
+  font-weight: bold;
+}
+.trending-thumbnail-dark-heading {
+  color: #ffffff;
+}
+.trending-thumbnail-light-heading {
+  color: #424242;
+}
+.trending-All-video-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+.trending-video-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.trending-video-image {
+  width: 100%;
+  max-width: 250px;
+}
+.trending-video-detail-container {
+  margin-left: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 0px;
+}
+.trending-video-title {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.trending-detail-dark-heading {
+  color: #ffffff;
+}
+.trending-detail-light-heading {
+  color: #181818;
+}
+.trending-video-name {
+  font-size: 12px;
+  margin-bottom: 0px;
+  color: #616e7c;
+}
+.trending-dark-name {
+  color: #f4f4f4;
+}
+.trending-light-name {
+  color: #7e858e;
+}
+.trending-video-count-container {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .trending-All-video-list {
+    padding: 5px;
+  }
+  .trending-video-detail-container {
+    margin-left: 0px;
+    padding-left: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+
+  .trending-video-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .trending-video-image {
+    width: 100%;
+    max-width: 380px;
+  }
+  .trending-video-title {
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #181818;
+  }
+}
